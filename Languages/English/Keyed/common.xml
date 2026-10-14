@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <FrameProfilerQuickAccess.LoadingLabel>Frame Profiler Quick Access Loading</FrameProfilerQuickAccess.LoadingLabel>
+    <FrameProfilerQuickAccess.SettingsTitle>Frame Profiler Quick Access</FrameProfilerQuickAccess.SettingsTitle>
+    <FrameProfilerQuickAccess.ShowButtonOnlyInDevMode>Show button only in dev mode</FrameProfilerQuickAccess.ShowButtonOnlyInDevMode>
+    <FrameProfilerQuickAccess.ShowButtonOnlyInDevModeTip>When enabled, the frame profiler button in the bottom bar is hidden unless dev mode is on.</FrameProfilerQuickAccess.ShowButtonOnlyInDevModeTip>
+</LanguageData>

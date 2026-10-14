@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MainButtonDef>
+    <defName>FPQA_FrameProfiler</defName>
+    <label>frame profiler</label>
+    <description>Open or close the frame profiler.</description>
+    <workerClass>Frame_Profiler_Quick_Access.MainButtonWorker_FrameProfiler</workerClass>
+    <order>490</order>
+    <validWithoutMap>true</validWithoutMap>
+    <canBeTutorDenied>false</canBeTutorDenied>
+    <minimized>true</minimized>
+    <iconPath>FPQA/monitoring</iconPath>
+  </MainButtonDef>
+</Defs>
