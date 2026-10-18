@@ -7,6 +7,6 @@
         <li>1.7</li>
     </supportedVersions>
     <description>Adds a button to the bottom bar that opens and closes Rimworld's built-in frame profiler with one click, so you don't have to dig through the debug actions menu. An option in the mod settings hides the button unless dev mode is enabled.</description>
-    <modVersion>1.0.0</modVersion>
+    <modVersion>1.1.0</modVersion>
     <url>https://steamcommunity.com/sharedfiles/filedetails/?id=3819627954</url>
 </ModMetaData>

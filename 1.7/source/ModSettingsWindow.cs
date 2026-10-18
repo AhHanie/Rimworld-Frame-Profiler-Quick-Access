@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Frame_Profiler_Quick_Access.Patches;
 using UnityEngine;
 using Verse;
 
@@ -18,7 +14,18 @@ namespace Frame_Profiler_Quick_Access
                 "FrameProfilerQuickAccess.ShowButtonOnlyInDevMode".Translate(),
                 ref ModSettings.ShowButtonOnlyInDevMode,
                 "FrameProfilerQuickAccess.ShowButtonOnlyInDevModeTip".Translate());
+
+            bool wasEnabled = ModSettings.InstrumentTrivialMethods;
+            listing.CheckboxLabeled(
+                "FrameProfilerQuickAccess.InstrumentTrivialMethods".Translate(),
+                ref ModSettings.InstrumentTrivialMethods,
+                "FrameProfilerQuickAccess.InstrumentTrivialMethodsTip".Translate());
             listing.End();
+
+            if (wasEnabled != ModSettings.InstrumentTrivialMethods)
+            {
+                InstrumentationRewriter_TryAnalyze_Patch.RefreshForSettingChange(wasEnabled);
+            }
         }
     }
 }

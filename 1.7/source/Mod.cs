@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using HarmonyLib;
 using UnityEngine;
 using Verse;
 
@@ -18,6 +14,7 @@ namespace Frame_Profiler_Quick_Access
         private void Init()
         {
             GetSettings<ModSettings>();
+            new Harmony("sk.frameprofilerquickaccess").PatchAll();
         }
 
         public override string SettingsCategory()

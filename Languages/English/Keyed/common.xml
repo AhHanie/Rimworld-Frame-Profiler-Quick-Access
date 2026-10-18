@@ -4,4 +4,6 @@
     <FrameProfilerQuickAccess.SettingsTitle>Frame Profiler Quick Access</FrameProfilerQuickAccess.SettingsTitle>
     <FrameProfilerQuickAccess.ShowButtonOnlyInDevMode>Show button only in dev mode</FrameProfilerQuickAccess.ShowButtonOnlyInDevMode>
     <FrameProfilerQuickAccess.ShowButtonOnlyInDevModeTip>When enabled, the frame profiler button in the bottom bar is hidden unless dev mode is on.</FrameProfilerQuickAccess.ShowButtonOnlyInDevModeTip>
+    <FrameProfilerQuickAccess.InstrumentTrivialMethods>Instrument trivial methods</FrameProfilerQuickAccess.InstrumentTrivialMethods>
+    <FrameProfilerQuickAccess.InstrumentTrivialMethodsTip>Allow the Frame Profiler to instrument methods Waylith classifies as trivial. Applies to all selected targets. Changing this refreshes active instrumentation and can take time with broad filters.</FrameProfilerQuickAccess.InstrumentTrivialMethodsTip>
 </LanguageData>
